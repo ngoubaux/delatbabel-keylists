@@ -1,5 +1,5 @@
 {
-    "name": "delatbabel/keylists",
+    "name": "ngoubaux/delatbabel-keylists",
     "description": "Laravel key/value lists package.",
     "keywords": ["laravel", "keylists", "keyvalue", "key", "value"],
     "license": "MIT",
@@ -10,10 +10,10 @@
         }
     ],
     "require": {
-        "php": ">=5.4.0",
-        "delatbabel/fluents": "~1.0",
+        "php": "^8.0",
+        "ngoubaux/delatbabel-fluents": "~1.0",
         "guzzlehttp/guzzle": "6.*",
-        "laravel/framework": "^5.1"
+        "laravel/framework": "^8.12|^9.0|^10.0|^11.0"
     },
     "autoload": {
         "psr-4": {
